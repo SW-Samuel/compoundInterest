@@ -1,0 +1,15 @@
+header {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1483ce;
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.1em;
+  color: black;
+  text-align: center;
+}

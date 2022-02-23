@@ -1,0 +1,41 @@
+main section:first-child {
+  margin-top: 20px;
+}
+
+main section:last-child {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 520px) {
+  section:first-child {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  main {
+    min-height: calc(100vh - 270px);
+  }
+
+  section:last-child {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 10px 7.5px 0;
+  }
+
+  label.inputComponent {
+    width: 30%;
+  }
+
+  article.cardComponent {
+    margin: 0 !important;
+  }
+}
+
+@media (min-width: 720px) {
+  section:last-child {
+    grid-template-columns: auto auto auto auto;
+  }
+}

@@ -1,0 +1,25 @@
+label.inputComponent {
+  display: block;
+  margin: 0 7.5px;
+}
+
+label.inputComponent:last-child input {
+  margin-bottom: 0;
+}
+
+.inputComponent span {
+  display: block;
+  color: #888;
+}
+
+.inputComponent input {
+  width: 100%;
+  height: 30px;
+  margin: 5px auto 10px;
+  padding-left: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #888;
+}
